@@ -1,0 +1,74 @@
+@media only screen and (max-width: 950px) {
+  h1 {
+    font-size: 35px;
+  }
+  .header {
+    height: 100%;
+    margin-top: 120px;
+  }
+
+  .header .row {
+    flex-direction: column;
+  }
+  .header .col-1 {
+    padding: 20px;
+  }
+  .header .col-2 img {
+    max-width: 90%;
+  }
+  .grid-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  }
+  .grid-box {
+    padding: 10px;
+  }
+  .skills {
+    height: 100%;
+  }
+  .Portfolio .title .ctn-title {
+    flex-direction: column;
+    text-align: left;
+  }
+  .contact .container {
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  .toggle-btn i {
+    display: block;
+  }
+  .brand img {
+    top: 20px;
+    left: 20px;
+    width: 30px;
+  }
+  .navbar {
+    background-color: #e9f9ff;
+    height: 100vh;
+    flex-direction: column;
+    display: none;
+  }
+  .mobile-nav {
+    display: flex;
+  }
+  .navlist ul {
+    flex-direction: column;
+  }
+  .navlist ul li {
+    margin-top: 30px;
+  }
+  .contact .container h1 {
+    font-size: 20px;
+  }
+  .contact .quick-link {
+    flex-direction: column;
+  }
+  .contact .quick-link ul li {
+    margin: 0px 5px;
+  }
+  .contact .quick-link img {
+    width: 50px;
+  }
+  .copyright p {
+    font-size: 12px;
+  }
+}
